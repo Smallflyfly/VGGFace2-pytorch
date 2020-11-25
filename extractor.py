@@ -74,5 +74,5 @@ class Extractor(object):
                 log_str = 'Extract: [{0}/{1}]\tTime: {batch_time.val:.3f} ({batch_time.avg:.3f})'.format(
                     batch_idx, len(self.val_loader), batch_time=batch_time)
                 print(log_str)
-                self.print_log(log_str)
+                self.print_log(3)
 
